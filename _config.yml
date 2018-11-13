@@ -1,0 +1,18 @@
+title:             Axiom of Joy
+email:             xander@axiom-of-joy.com
+description:       A whimsical math and data science blog.
+author:            Alexander Song
+baseurl:           ""
+url:               "https://www.axiom-of-joy.com/"
+
+# Social Profiles
+github_username:   axiom-of-joy
+linkedin_username: alexander-song
+
+# Build settings
+markdown:          kramdown
+paginate:          5
+paginate_path:     "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
