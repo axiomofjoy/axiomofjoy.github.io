@@ -1,7 +1,7 @@
 ---
 layout: post
-title: First Post
-author: Alexander Song
+title: "First Post"
+author: "Alexander Song"
 background: '/img/posts/03.jpg'
 ---
 
