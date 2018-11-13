@@ -1,0 +1,8 @@
+---
+layout: page
+title: About
+description: The man, the myth, the legend.
+background: '/img/bg-about.jpg'
+---
+
+<p>This site was built with the static site generator <a href="https://jekyllrb.com/">Jekyll</a> using the <\p>
