@@ -16,3 +16,6 @@ paginate_path:     "/posts/page:num/"
 plugins:
   - jekyll-feed
   - jekyll-paginate
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
