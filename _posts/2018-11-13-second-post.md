@@ -7,10 +7,10 @@ background: '/img/posts/03.jpg'
 
 # Here is some Python code:
 
-```python
+{% highlight python %}
 import matplotlib.pyplot as plt
 print("Hello world")
-```
+{% endhighlight %}
 
 
 
