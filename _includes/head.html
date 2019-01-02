@@ -35,4 +35,8 @@
   <!-- Automatic equation numbering -->
   <script type="text/x-mathjax-config">MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "AMS" } } });</script>
 
+  <!-- Extra CSS specified in YAML front matter -->
+  {% for css_name in page.extra_css %}
+      <link rel="stylesheet" href="{{ css_name }}">
+  {% endfor %}
 </head>

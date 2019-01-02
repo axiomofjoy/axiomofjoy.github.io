@@ -41,7 +41,7 @@ This post explains and implements the MBO (Merriman-Bence-Osher) scheme for diff
 To illustrate motion by mean curvature, suppose that \\(\\Omega \\subset \\mathbb R^2\\) is a subset of the plane partitioned into two parts separated by a boundary \\(\\partial\\), as in the following picture.
 
 <figure>
-  <img src="/media/posts/motion_by_mean_curvature/threshold0.jpg" alt="Omega" style="width:100%">
+  <img src="/media/posts/motion_by_mean_curvature/threshold0.jpg" alt="Omega" style="width:50%">
   <div class="caption">Figure 1: A rectangular region \(\Omega \subset \mathbb R^2\) partitioned into two parts (black and white) separated by a boundary \(\partial\).</div>
 </figure>
 

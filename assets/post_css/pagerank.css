@@ -1,0 +1,94 @@
+.dataframe tbody tr th:only-of-type {
+    vertical-align: middle;
+    padding: 5px;
+}
+
+.dataframe tbody tr th {
+    vertical-align: top;
+    padding: 5px;
+}
+
+.dataframe thead th {
+    padding: 5px;
+}
+
+.dataframe td {
+  padding: 5px;
+}
+
+.center1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+figure {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.column {
+    float: left;
+    width: 49%;
+    padding: 5px;
+}
+.caption {
+    text-align: center;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+hr.heavy {
+  margin-top: 0em;
+  margin-bottom: 0em;
+  border-width: 5px;
+  border-color: #000000;
+}
+
+hr.light {
+  margin-top: 0em;
+  margin-bottom: 0em;
+  border-width: 3px;
+  border-color: #000000;
+}
+
+ol.custom {
+  list-style-type: none;
+  margin-top: 0.1em;
+  margin-bottom: 0.1em;
+  padding: 0;
+}
+
+ol.custom > li {
+  counter-increment: customlistcounter;
+}
+
+ol.custom > li:before {
+  content: counter(customlistcounter) ": ";
+  font-size: 8;
+  float: left;
+  width: 3em;
+}
+
+ol.custom:first-child {
+  counter-reset: customlistcounter;
+}
+
+p.marginless {
+  margin: 0;
+  padding: 0;
+}
+
+.theorem {
+display: block;
+font-style: italic;
+}
+.theorem:before {
+content: "Theorem. ";
+font-weight: bold;
+font-style: normal;
+}
+.theorem[text]:before {
+content: "Theorem (" attr(text) ") ";
+}
