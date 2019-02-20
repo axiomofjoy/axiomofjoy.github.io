@@ -53,3 +53,11 @@ font-style: normal;
 .theorem[text]:before {
 content: "Theorem (" attr(text) ") ";
 }
+
+.nice_list li {
+  margin: 15px 0;
+}
+
+.nice_list li a{
+  text-decoration: underline;
+}
