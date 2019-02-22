@@ -1,6 +1,6 @@
 # Axiom of Joy
 
-A whimsical math and data science blog.
+A whimsical math and data science portfolio.
 
 ## Welcome!
 
