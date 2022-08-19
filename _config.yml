@@ -6,8 +6,8 @@ baseurl:           ""
 url:               "https://www.axiom-of-joy.com/"
 
 # Social Profiles
-github_username:   axiom-of-joy
-linkedin_username: alexander-song
+github_username:   axiomofjoy
+linkedin_username: xandersong
 
 # Build settings
 markdown:          kramdown
